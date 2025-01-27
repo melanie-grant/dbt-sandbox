@@ -7,5 +7,5 @@ SELECT
     customer_id,
     location_id,
     ordered_at,
-    order_total
+    order_total,*
 FROM {{ ref('orders') }}
